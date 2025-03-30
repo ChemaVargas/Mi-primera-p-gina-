@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sismos - Atlas de Riesgos Villa Victoria</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin-bottom: 1rem;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        nav a:hover {
+            background-color: #003d7a;
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        main h2 {
+            margin-bottom: 1rem;
+            color: #0056b3;
+            text-align: center;
+        }
+        
+        .risk-section {
+            background-color: white;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .risk-section h3 {
+            color: #0056b3;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 0.5rem;
+        }
+        
+        .risk-section p {
+            margin-bottom: 1rem;
+        }
+        
+        .risk-section ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .risk-section li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .risk-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 1.5rem auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .risk-map {
+            width: 100%;
+            height: 400px;
+            background-color: #e9e9e9;
+            margin-top: 2rem;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            color: #666;
+        }
+        
+        footer {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin-bottom: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sismos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="prevencion.html">Prevención</a></li>
+                <li><a href="rutas.html">Rutas de Evacuación</a></li>
+                <li><a href="sismos.html">Sismos</a></li>
+                <li><a href="inundaciones.html">Inundaciones</a></li>
+                <li><a href="incendios.html">Incendios</a></li>
+                <li><a href="otros.html">Otros Riesgos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="sobre.html">Sobre el Proyecto</a></li>
+                <li><a href="cecytem.html">CECyTEM Villa Victoria</a></li>
+                <li><a href="Plantelcecytem.html">Plnatel CECyTEM</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Riesgo Sísmico en Villa Victoria</h2>
+        
+        <div class="risk-section">
+            <h3>Información General</h3>
+            <p>Villa Victoria se encuentra en una zona de riesgo sísmico moderado debido a su ubicación en el Estado de México. Aunque no está directamente sobre las principales fallas sísmicas del país, puede verse afectada por sismos de magnitud considerable que ocurren en regiones cercanas.</p>
+            
+            <p>Los sismos son movimientos repentinos de la corteza terrestre causados por la liberación de energía acumulada durante largos períodos. En México, la actividad sísmica es frecuente debido a la interacción de varias placas tectónicas.</p>
+            
+      
+                          <img src="img/z1.jpeg" alt="Mapa de sismos" width="90%">
+        </div>
+        
+        <div class="risk-section">
+            <h3>Medidas de Prevención</h3>
+            <ul>
+                <li>Identifica zonas seguras en tu hogar: alejadas de ventanas, espejos y objetos que puedan caer.</li>
+                <li>Asegura muebles y objetos pesados a la pared para evitar que se vuelquen.</li>
+                <li>Prepara un kit de emergencia con agua, alimentos no perecederos, linterna, radio y documentos importantes.</li>
+                <li>Establece un plan familiar de emergencia y puntos de reunión.</li>
+                <li>Conoce las rutas de evacuación de tu comunidad.</li>
+                <li>Participa en simulacros de evacuación.</li>
+            </ul>
+        </div>
+        
+        <div class="risk-section">
+            <h3>Qué Hacer Durante un Sismo</h3>
+            <ul>
+                <li>Mantén la calma y ubícate en zonas seguras.</li>
+                <li>Protégete bajo mesas o escritorios resistentes.</li>
+                <li>Aléjate de ventanas, espejos y objetos que puedan caer.</li>
+                <li>Si estás en la calle, aléjate de edificios, postes y cables eléctricos.</li>
+                <li>No uses elevadores.</li>
+                <li>Si estás en un vehículo, deténte en un lugar seguro y permanece dentro.</li>
+            </ul>
+        </div>
+        
+        <div class="risk-section">
+            <h3>Qué Hacer Después de un Sismo</h3>
+            <ul>
+                <li>Revisa si hay personas heridas y proporciona primeros auxilios si es necesario.</li>
+                <li>Verifica el estado de las instalaciones de gas, agua y electricidad.</li>
+                <li>Evacúa el inmueble si hay daños estructurales.</li>
+                <li>Mantente informado a través de medios oficiales.</li>
+                <li>No propagues rumores.</li>
+                <li>Coopera con las autoridades y brigadas de rescate.</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Atlas de Riesgos Villa Victoria | Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,211 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CECyTEM Villa Victoria - Atlas de Riesgos Villa Victoria</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        nav a:hover {
+            background-color: #003d7a;
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        .section {
+            background-color: white;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        
+        }
+        
+        .section h3 {
+            color: #0056b3;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 0.5rem;
+        }
+        
+        .image-container {
+            width: 100%;
+            max-width: 600px;
+            height: 300px;
+            background-color: #e0e0e0;
+            margin: 1.5rem auto;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            color: #666;
+        }
+
+        .symbol-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1rem;
+            text-align: center;
+        }
+        
+        .symbol-card {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .symbol-card img {
+            width: 100px;
+            height: 80px;
+        }
+        /* Estilo para centrar la imagen */
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin: 1.5rem auto;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        footer {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin-bottom: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CECyTEM Villa Victoria</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="prevencion.html">Prevención</a></li>
+                <li><a href="rutas.html">Rutas de Evacuación</a></li>
+                <li><a href="sismos.html">Sismos</a></li>
+                <li><a href="inundaciones.html">Inundaciones</a></li>
+                <li><a href="incendios.html">Incendios</a></li>
+                <li><a href="deslizamientos.html">Deslizamientos</a></li>
+                <li><a href="otros.html">Otros Riesgos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="sobre.html">Sobre el Proyecto</a></li>
+                <li><a href="cecytem.html">CECyTEM Villa Victoria</a></li>
+                <li><a href="Plantelcecytem.html">Plantel CECyTEM </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Colegio de Estudios Científicos y Tecnológicos del Estado de México</h2>
+        <h3>Plantel Villa Victoria</h3>
+        
+        <!-- Secciones originales -->
+        
+        <div class="section">
+            <h3>Rutas de Evacuación</h3>
+            <img src="img/m2.png" alt="Mapa de rutas"width="600px" >
+            <p>En caso de emergencia, es fundamental conocer y seguir las rutas de evacuación. Estas rutas están señalizadas y llevan a puntos seguros de reunión dentro del CECyTEM Villa Victoria.</p>
+            <ul>
+                <li>Identifica las rutas y puntos de reunión antes de una emergencia.</li>
+                <li>Durante la evacuación, sigue las indicaciones del personal.</li>
+                <li>No corras ni empujes a otros compañeros.</li>
+                <li>Si hay humo o fuego, agáchate y cúbrete la boca con un paño húmedo.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>Símbolos de Precaución en la Escuela</h3>
+            <p>El CECyTEM Villa Victoria cuenta con señalización para guiar a estudiantes y personal en caso de emergencia.</p>
+            
+            <div class="symbol-grid">
+                <div class="symbol-card">
+                    <img src="img/sa.webp" alt="Salida de emergencia" width="50%">
+                    <p>Salida de emergencia</p>
+                </div>
+                <div class="symbol-card">
+                    <img src="img/ex.jpg" alt="Ubicación de extintor" width="50%">
+                    <p>Extintor</p>
+                </div>
+                <div class="symbol-card">
+                    <img src="img/c4.jpg" alt="Punto de reunión" width="90%">
+                    <p>Punto de reunión</p>
+                </div>
+                <div class="symbol-card">
+                    <img src="img/pr.jpg" alt="Prohibido fumar"width="50%">
+                    <p>Prohibido fumar</p>
+                </div>
+                <div class="symbol-card">
+                    <img src="img/s8.png" alt="Zona segura" width="50%">
+                    <p>Zona segura</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Atlas de Riesgos Villa Victoria | Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
+
+
